@@ -18,14 +18,35 @@ while run:
     try:
         print("\033[32mWelcome to trapezoid area calculator!\n")
         time.sleep(.5)
-        b1 = float(input("What is base one of your trapezoid? "))
-        b2 = float(input("What is base two of your trapezoid? "))
-        h = float(input("What is the height of your trapezoid? "))
+        b1 = float(input("\033[33mWhat is base one of your trapezoid? "))
+        b2 = float(input("\033[33mWhat is base two of your trapezoid? "))
+        h = float(input("\033[33mWhat is the height of your trapezoid? "))
         a = ((b1+b2)/2)*h
-        print("The area of your trapezoid is \033[94m{area}\n".format(area=a))
-        again = input("\033[95mPress 'y' to calculate another trapezoid, otherwise press enter")
+        print("\033[32mThe area of your trapezoid is \033[34m{area}\n".format(area=a))
+        again = input("\033[35mPress 'y' to calculate another trapezoid, otherwise press enter")
         if again != 'y':
             run = False
             print("Have a good day!")
     except ValueError:
-        print("\033[91mERROR\033[37m The only accepted value is a number\033[32m")
+        print("\033[31mERROR\033[37m The only accepted value is a number\033[32m")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
