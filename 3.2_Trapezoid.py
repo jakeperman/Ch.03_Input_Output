@@ -16,9 +16,9 @@ run = True
 
 while run:
     try:
-        print("\033[32mWelcome to trapezoid area calculator!\n")
+        print("\033[34mWelcome to trapezoid area calculator!\n")
         time.sleep(.5)
-        b1 = float(input("What is base one of your trapezoid? "))
+        b1 = float(input("\033[32mWhat is base one of your trapezoid? "))
         b2 = float(input("What is base two of your trapezoid? "))
         h = float(input("What is the height of your trapezoid? "))
         a = ((b1+b2)/2)*h

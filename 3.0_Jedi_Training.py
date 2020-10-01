@@ -71,7 +71,8 @@ while opn:
                 elif restart == "s":
                     run = True
                     config = True
-                rtrndir()
+                else:
+                    rtrndir()
 
             # Exception handling
             except ValueError:
